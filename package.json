@@ -1,0 +1,22 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send_email.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node send_email.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production node build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "http": "^0.0.1-security",
+    "nodemailer": "^6.9.2",
+    "serverless-http": "^3.2.0"
+  }
+}

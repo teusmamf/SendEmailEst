@@ -1,0 +1,27 @@
+{
+    "version":2,
+    "builds":[
+        {
+            "src":"send_email.js",
+            "use":"@vercel/node"    
+         
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/"
+        }
+    ],
+    "headers": [
+        {
+          "source": "./send_email",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ]
+        }
+      ]
+}

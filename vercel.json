@@ -7,21 +7,7 @@
          
         }
     ],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dest":"/"
-        }
-    ],
-    "headers": [
-        {
-          "source": "./send_email",
-          "headers": [
-            {
-              "key": "Access-Control-Allow-Origin",
-              "value": "*"
-            }
-          ]
-        }
-      ]
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/index.js" }
+    ]
 }

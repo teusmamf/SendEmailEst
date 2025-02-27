@@ -8,6 +8,6 @@
         }
     ],
     "rewrites": [
-      { "source": "/(.*)", "destination": "/index.js" }
+      { "source": "/(.*)", "destination": "/send_email.js" }
     ]
 }

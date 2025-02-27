@@ -15,8 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "express": "^4.21.2",
     "http": "^0.0.1-security",
-    "nodemailer": "^6.9.2",
+    "nodemailer": "^6.10.0",
     "serverless-http": "^3.2.0"
   }
 }
